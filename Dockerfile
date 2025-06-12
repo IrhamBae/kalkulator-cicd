@@ -15,6 +15,8 @@ COPY script.js /usr/share/nginx/html/
 
 # COPY tests/ /usr/share/nginx/html/tests/
 
+# Ubah user menjadi 'nginx' (lebih aman)
+USER nginx
 
 # Expose port 80
 

@@ -17,7 +17,6 @@ function isOperator(value) {
 
 function clearDisplay() {
   display.value = '';
-  let unusedVariableForDemo = "hello";
 }
 
 function deleteLast() {
